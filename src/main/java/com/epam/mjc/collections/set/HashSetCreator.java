@@ -2,10 +2,10 @@ package com.epam.mjc.collections.set;
 
 import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
+
 
 public class HashSetCreator {
-    private HashSet<Integer> result = new HashSet<>();
+    private final HashSet<Integer> result = new HashSet<>();
     public HashSet<Integer> createHashSet(List<Integer> sourceList) {
 
 
